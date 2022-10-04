@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>10_연습문제(종합test)</title>
+</head>
+<body>
+
+    <!-- 1번 페이지  -->
+
+    <form action="#">
+        고객명 : <input type="text" name="name"> <br><br>
+        전화번호 : <input type="tel" name="tel"> <br><br>
+        이메일 : <input type="email" name="email"> <br><br>
+        피자선택 : 
+        <select name="pizza">
+            <option name="Cheeze">치즈피자</option>
+            <option name="Bulgogi">불고기피자</option>
+            <option name="Hawaiian">하와이언피자</option>
+            <option selected>피자를 입력해주세요</option>
+        </select>
+        <br>
+        <!-- <label for="male">남성</label> -->
+        <!-- <input type="radio" id="male" name="gender" value="M"> -->
+        <fieldset>
+            <legend>피자 사이즈</legend>
+            <input type="radio" id="Small" name="size" value="S">
+            <label for="Small">Small</label><br><br>
+            <input type="radio" id="Medium" name="size" value="M">
+            <label for="Small">Medium</label><br><br>
+            <input type="radio" id="Large " name="size" value="L">
+            <label for="Small">Large</label><br><br>
+        </fieldset>
+        <fieldset>
+            <legend>토핑 선택</legend>
+                <input type="checkbox" name="topping" id="bacon" value="bacon"> 
+                <label for="bacon">베이컨</label><br><br>
+                <input type="checkbox" name="topping" id="cheeze" value="cheeze">
+                <label for="cheeze">치즈</label><br><br>
+                <input type="checkbox" name="topping" id="onion" value="onion">
+                <label for="onion">양파</label><br><br>
+                <input type="checkbox" name="topping" id=" mushroom" value="mushroom"> 
+                <label for="mushroom">버섯</label>
+        </fieldset> <br>
+        희망배송시간 : <input type="time" name="delivery time"> <br><br>
+
+        배송시 요청사항 :
+        <textarea name="Requests" id="" cols="30" rows="5"></textarea><br><br>
+        <button>주문하기</button>
+        
+    </form> 
+
+    
+    
+</body>
+</html>
