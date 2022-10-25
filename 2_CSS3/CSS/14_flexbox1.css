@@ -5,7 +5,7 @@
     display: flex;
     /* item을 감싸는 요소의 형식을 flex 변경 
        -> item에 자동으로 지정된 margin이 모두 사라지고 
-          content+padding + border영역 만큼의 크기만 가지게 됨
+          content + padding + border영역 만큼의 크기만 가지게 됨
         
        item에 width/height가 지정되어 있지 않을 경우 
        item의 높이는 flex-container의 너비/높이와 같아지게 된다.
@@ -22,7 +22,7 @@
          세로 방향(열), 
          세로 역방향 
     */
-    flex-direction: row;
+    flex-direction: row; 
     /* flex-direction: row-reverse; */
     /* flex-direction: column; */
     /* flex-direction: column-reverse; */
@@ -37,13 +37,13 @@
     */
 
     /* item을 강제로 한 줄에 배치(item 크기를 변경) */
-    flex-wrap: nowrap; /* 기본값 */
+    flex-wrap: nowrap;   /* 기본값 */
 
     /* item을 여러 줄로 배치 */
-    flex-wrap: wrap;
+    /* flex-wrap: wrap;  */
 
     /* item을 여러 줄로 배치(뒤에서부터 배치) */
-    flex-wrap: wrap-reverse;
+    /* flex-wrap: wrap-reverse;   */
 
 
     /*************************************/
@@ -56,7 +56,7 @@
           둘을 한번에 지정하는 속성이 존재함
      */
 
-     flex-flow: row  nowrap;
+     flex-flow: row  nowrap;  
 
 
     /*******************************************/
@@ -70,11 +70,11 @@
     */
 
     /* 중심축 설정 */
-    /* flex-direction: row-reverse; */
+    flex-direction: row-reverse;
 
     /* flex-start : main axis 시작지점을 기준으로 정렬(기본값) */
     /* justify-content: flex-start; */
-    /* flex-start : main axis 끝지점을 기준으로 정렬(기본값) */
+    /* flex-end : main axis 끝지점을 기준으로 정렬(기본값) */
     /* justify-content: flex-end; */
     /* center : main axis 가운데 정렬 */
     /* justify-content: center; */
@@ -92,7 +92,7 @@
     /* space-between : 양끝의 item을 main-axis 시작/끝 지점에 붙인 상태에서
                        item들이 동일한 간격을 가지게 저장하는 것.
     */
-    justify-content: space-between;
+    justify-content: space-between; 
 
 
 
@@ -121,7 +121,8 @@
 
     /* baseline : item 내부 content가 모두 한 줄에 배치될 수 있도록
                   각각의 item을 cross-axis 방향으로 움직이는 속성*/
-    align-items: baseline;
+
+    align-items: baseline; 
 
 
 

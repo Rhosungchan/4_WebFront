@@ -2,6 +2,7 @@
     height: 400px;
     background-color: #ddd;
     display: flex;
+    flex-wrap: nowrap;
 }
 
 
@@ -25,16 +26,16 @@
    - 여러 item에 지정된 경우 각각의 비율에 맞게 팽창함 
 */
 
-.grow1{ flex-grow: 1;}
-.grow2{ flex-grow: 2;}
-.grow3{ flex-grow: 3;}
-.grow4{ flex-grow: 4;}
+.grow1{ flex-grow: 4;}
+.grow2{ flex-grow: 3;}
+.grow3{ flex-grow: 2;}
+.grow4{ flex-grow: 1;}
 
 
 /* ------------------------------ */
 /* flex-shrink
    - item이 수축하는 정도를 지정하는 속성(기본값 1) */
-.shrink0{ flex-shrink: 0;}
+.shrink0{ flex-shrink: -10;}
 .shrink1{ flex-shrink: 1;}
 .shrink2{ flex-shrink: 2;}
 .shrink3{ flex-shrink: 3;}
@@ -53,7 +54,7 @@
 /* flex
 /* grow + shrink + basis */
 
-.flex-1{ flex : 0 0 100px}
+/* .flex-1{ flex : 0 0 100px} */
 
 
 /* ------------------------------ */

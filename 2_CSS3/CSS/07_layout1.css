@@ -9,7 +9,7 @@
     width: 150px;
     height: 150px;
     color: white;
-    display: block; /* 요소의 형식을 block으로 변경 */
+    display: block; /* 요소의 형식을 block으로 변경*/
 }
 
 .inline {

@@ -139,9 +139,9 @@
     padding: 40px 20px 20px; 
         /*    상  좌우  하  */
     position: sticky;    
-    top: -20px; /* 요소가 화면을 벗어났을 때 위쪽으로 -20px 위치에 고정 */
+    top: -20px;
+     /* 요소가 화면을 벗어났을 때 위쪽으로 -20px 위치에 고정 */
 
-    z-index: 10; /* absolute 요소에 아래로 겹치지 않도록 지정 */
-
-
+    z-index: 10; 
+    /* absolute 요소에 아래로 겹치지 않도록 지정 */
 }

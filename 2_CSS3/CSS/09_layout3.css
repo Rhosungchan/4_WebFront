@@ -17,9 +17,9 @@ div{
     float: left;
 }
 .clear{
-    /* clear : left; */
+    clear : left; 
     /* float : left 상태를 해제 */
-    /* clear : right; */
+    clear : right;
     /* float : left 상태를 해제 */
     clear : both;
     /* float : left/right 상태를 해제 */
@@ -52,7 +52,8 @@ div{
 
 /* 4분할 하기 */
 .row-1{     /*행 분할*/
-    width: 100%;  /*block 형식 요소는 width가 기본 100%이므로 생략 가능*/
+    width: 100%;  
+    /* block 형식 요소는 width가 기본 100%이므로 생략 가능 */
     height: 50%;
 }
 .col-1{     /*열 분할*/
