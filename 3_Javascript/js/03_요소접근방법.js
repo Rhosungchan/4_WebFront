@@ -52,7 +52,7 @@ function fnTest3(){
 
 }
 
-// input 태그 값(value) 얻오오기 / 변경하기
+// input 태그 값(value) 얻어오기 / 변경하기
 function fnTest4(){
 
     // input 요소 접근하기 

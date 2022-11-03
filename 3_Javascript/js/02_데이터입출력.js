@@ -11,6 +11,7 @@ function getInnerHTML1(){
     console.log(t1.innerHTML);
     
 }
+
 // innerHTML로 변경하기(태그, 속성이 해석됨(HTML Convertter 이용))
 function setInnerHTML1(){
     
