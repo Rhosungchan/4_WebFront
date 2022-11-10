@@ -99,7 +99,7 @@ document.getElementById("btn2").addEventListener("click",function(){
     // for of : 배열/컬렉션 요소 반복 접근용 for문 
     for(let std of stdList){
 
-        // for in : 객체의 키 반복 접근용 for문 
+        // for of : 배열/컬렉션 요소 반복 접근용 for문 
         for (let key in std){
 
             // std[key]의 자료형이 'function'이면 실행 후 출력
